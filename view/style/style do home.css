@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+* {
+  font-family: 'Quicksand', sans-serif;
+ 
+}
+
+body {
+  background-image: url('/view/img/background.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  box-sizing: border-box;
+  margin: 0;
+  display: block;
+
+}
+
+
+
+
+.ball {
+  width: 10vh;
+  height: 10vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  background-image: url('/view/img/bola.png');
+  animation: ball 10.0s infinite linear;
+  object-fit: none;
+
+}
+
+@keyframes ball {
+  0% {
+    top: 34%;
+    left: 52%;
+  }
+
+  8.3% {
+    top: 42%;
+    left: 92%;
+  }
+
+  24.9% {
+    top: 54%;
+    left: 4%;
+  }
+
+  30% {
+    top: 56%;
+    left: 27%;
+  }
+
+  41.5% {
+    top: 60%;
+    left: 90.5%;
+  }
+
+  58.1% {
+    top: 55%;
+    left: 4%;
+  }
+
+  74.7% {
+    top: 36%;
+    left: 90.5%;
+  }
+
+  79% {
+    top: 35.5%;
+    left: 70%;
+  }
+
+  91.3% {
+    top: 22%;
+    left: 1%;
+  }
+
+  100% {
+    top: 34%;
+    left: 52%;
+  }
+}
+
+.header {
+  background-color: darkgreen;
+  display: flex;
+
+
+}
+
+h2 {
+  font-size: 25px;
+  text-align: left;
+  font-weight: bolder;
+  color: white;
+  margin: 0px;
+  padding: 30px;
+  margin-right: 10vh;
+}
+
+.nav {
+  padding-top: 30px;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-align: right;
+  font-size: 20px;
+}
+
+ul li {
+  float: left;
+  width: 14vh;
+  height: 5vh;
+  line-height: 30px;
+  text-align: center;
+  background-color: darkgreen;
+  margin-right: 40px;
+  padding-top: 10px;
+
+  position: relative;
+
+
+}
+
+ul li a {
+  text-decoration: none;
+  color: white;
+  display: block;
+}
+
+ul li a:hover {
+  background-color: lightgreen;
+}
+
+ul li ul li {
+  display: none;
+}
+
+ul li:hover ul li {
+  display: block;
+
+}
+
+
+footer {
+  padding: 8px;
+  color: white;
+  background-color: rgb(95, 184, 95);
+  text-align: center;
+
+}
+
+.foot{
+  margin-top: 805px;
+}
