@@ -9,7 +9,7 @@ body {
     margin: 0;
     display: block;
     text-align: center;
-    background-image: url('/view/img/background.png');
+    background-image: url('../img/background.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;

@@ -6,7 +6,7 @@
 }
 
 body {
-  background-image: url('/view/img/background.png');
+  background-image: url('../img/background.png');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -26,7 +26,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   position: absolute;
-  background-image: url('/view/img/bola.png');
+  background-image: url('../img/bola.png');
   animation: ball 10.0s infinite linear;
   object-fit: none;
 

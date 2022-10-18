@@ -92,7 +92,7 @@ body {
     background-color: var(--bg-color) ;
    
     /*imagem do estádio fixada no meio*/
-    background-image:url('/view/img/1920x1080.jpg');
+    background-image:url('../img/1920x1080.jpg');
     background-repeat: no-repeat;
     background-size: cover ;
     background-position: center ;
